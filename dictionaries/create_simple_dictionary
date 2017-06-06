@@ -8,7 +8,8 @@ print(user_dict)
 print("-" * 70)
 
 # printing the keys is the default behavior
-for key in user_dict:
+# sorted function sorts the keys (not required)
+for key in sorted(user_dict):
     print(key)
 
 print("-" * 70)
