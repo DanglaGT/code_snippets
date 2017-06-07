@@ -11,7 +11,10 @@ df = pd.DataFrame({
 
 print(df)
 
-df = df.sort_values(['x', 'y'])
+df1 = df.sort_values(['x', 'y'])
+df2 = df.sort_values(['x', 'y'], ascending=False)
 
 print("-" * 50)
-print(df)
+print(df1)
+print("-" * 50)
+print(df2)
