@@ -9,6 +9,11 @@ df = pd.DataFrame({
 
 df2 = df[df['y'] >= 4]
 
+# this is the same thing
+df3 = df[df.y >= 4]
+
 print(df)
 print("-" * 50)
 print(df2)
+print("-" * 50)
+print(df3)
