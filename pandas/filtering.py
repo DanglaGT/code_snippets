@@ -12,8 +12,13 @@ df2 = df[df['y'] >= 4]
 # this is the same thing
 df3 = df[df.y >= 4]
 
+# using the "isin" method
+df4 = df[df['x'].isin([1, 3])]
+
 print(df)
 print("-" * 50)
 print(df2)
 print("-" * 50)
 print(df3)
+print("-" * 50)
+print(df4)
